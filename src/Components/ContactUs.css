@@ -1,0 +1,41 @@
+.ContactUs{
+    height: 78vh;
+    background: #191C24;
+    padding: 20px;
+    margin: 2% 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+.ContactUs h2{
+    color: white;
+}
+.ContactUs .ContactUs-container{
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}
+.ContactUs .ContactUs-container .ContactUs-content2{
+    margin-top: 10px;
+}
+.ContactUs .ContactUs-container spam{
+    color: red;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.ContactUs .ContactUs-container .ContactUs-carousel{
+    width: 100%;
+    height: 100%;
+}
+.ContactUs .ContactUs-container .ContactUs-carousel .carousel-inner{
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    background: #191C24;
+}
+.ContactUs .ContactUs-container .ContactUs-carousel .carousel-inner .carousel-item{
+    top: 12px;
+    padding: 120px;
+}
+.ContactUs .ContactUs-container .ContactUs-carousel button{
+    display: none;
+}

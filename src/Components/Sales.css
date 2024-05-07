@@ -1,0 +1,38 @@
+.Sales{
+    margin-top: 5%;
+    width: 100%;
+    background:#191C24;
+    /* padding: 1px; */
+    border-radius: 20px;
+}
+.Sales h3{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+.Sales .Sale-content{
+  padding: 20px 30px;
+}
+.Sales .Sale-content button{
+    background: red;
+    padding: 6px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    color: white;
+    border: 1px solid black;
+    text-align:center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #191C24;
+  }

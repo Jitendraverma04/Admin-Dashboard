@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+  nav{
+    height: 10vh;
+    width: auto;
+    background: #191c24;
+    color: #6C708C;
+  }
+  .navbar{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+  }
+  
+  
+  .navbar .container-fluid form i{
+    margin: 10px 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 2px solid #6C708C;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .navbar .container-fluid form  i:hover +.text{
+    color: #cc1617;
+    display: block;
+    content: "message";
+  }
+  
+  .navbar .container-fluid .text{
+   position:absolute;
+   top: 4rem;
+   margin-left: 4rem;
+   color: white;
+   display:none;
+   font-size: 20px;
+  }
+  
+  .navbar .container-fluid input , button{
+  height: 40px;
+  margin: 6px 20px;
+  }
+  .navbar .container-fluid button{
+  background: #000;
+  color:#6C708C;
+  }
+  
+  .navbar .container-fluid button:hover{
+    color:#cc1617;
+  }
+  
+  
+  .Container{
+    display:flex;
+    width: 100%;
+  }
+  
+  main{
+    height:"120vh";
+    padding: 20px;
+  }
+  
+  .sidebar{
+    position:fixed;
+    background:#191c24;  
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100%;
+    transition: all 0.2s;
+  }
+  
+  .top_section{
+    margin-top: 1vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:10px 15px;
+  }
+  
+  .logo1{
+    cursor: pointer;
+    color: #6C708C;
+    font-size: 20px;
+    font-weight:800;
+  }
+  .logo2{
+    cursor: pointer;
+    color: #6C708C;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .logo1:hover, .logo2:hover{
+    color:#cc1617 ;
+  }
+  
+  .link{
+     display: flex;
+    color: #6C708C;
+    margin-top: 35px;
+    padding: 6px 0px 0px 2vw;
+    border-radius:0px 85px 85px 0px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background:black;
+    color: #cc1617;
+    transition: all 0.2s;
+  }
+  .active{
+    background:#6C708C;
+    color: #000;
+  }
+  .icon{
+    font-size: 24px;
+    border-radius: 50%;
+    background: #000;
+    padding: 5px 10px;
+  }
+  
+  .link_text{
+    font-size: 24px;
+  }
+  
+  
